@@ -7,27 +7,105 @@
 
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     background-color: #000;
     color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: Verdana, sans-serif;
     text-align: center;
-    height: 100vh;
+    background-color: #333; /* Dark gray as per background spec */
 }
 
+/* Header Styles */
 header h1 {
-    font-size: 2em;
-    margin-bottom: 0.5em;
+    font-size: 50px;         /* 50px font size */
+    font-weight: normal;     /* Normal weight */
+    color: white;            /* White color */
+    text-align: center;
+    margin-top: 20px;
 }
 
 .download-link {
-    color: #00ff00;
+    color: #7FFFD4;          /* Aquamarine color */
+    font-size: 16px;         /* 16px font size */
     text-decoration: none;
-    font-size: 1em;
+    margin-top: 10px;
 }
 
 .download-link:hover {
+    text-decoration: underline;
+}
+
+/* Video Section */
+.video-section {
+    margin: 30px 0;
+}
+
+.phone-frame {
+    width: 200px;
+    height: 400px;
+    background: url('resources/images/phone.png') no-repeat center center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-frame video {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Supporting Text */
+.supporting-text h2 {
+    font-size: 42px;         /* 42px font size */
+    font-weight: 300;        /* Lighter font weight */
+    color: white;
+    margin: 20px 0;
+}
+
+.supporting-text p {
+    font-size: 21px;         /* 21px font size */
+    color: gray;             /* Gray color */
+    font-weight: normal;
+}
+
+/* Image Section */
+.image-section {
+    margin: 30px 0;
+}
+
+.camp-image {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+/* Footer Section */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.phone-icon {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 32px;         /* Adjusted for clear visibility */
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer .download-link {
+    color: #7FFFD4;          /* Aquamarine color */
+    font-size: 16px;         /* 16px font size */
+}
+
+footer .download-link:hover {
     text-decoration: underline;
 }
