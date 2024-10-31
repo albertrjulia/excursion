@@ -13,8 +13,14 @@ body {
     color: #fff;
     font-family: Verdana, sans-serif;
     text-align: center;
-    background-color: #333; /* Dark gray as per background spec */
+    background-color: #000; /* Black as per background spec */
 }
+
+
+
+
+
+
 
 /* Header Styles */
 header h1 {
