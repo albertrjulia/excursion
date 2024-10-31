@@ -1,0 +1,33 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.download-link {
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.download-link:hover {
+    text-decoration: underline;
+}
